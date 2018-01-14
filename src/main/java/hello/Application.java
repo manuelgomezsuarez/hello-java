@@ -9,8 +9,8 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 public class Application extends SpringBootServletInitializer {
 
     @Override
-    protected SpringApplicationBuilder configure(SpringApplicationBuilder aplication) {
-        return application.sources(Aplication.class);
+    protected SpringApplicationBuilder configure(SpringApplicationBuilder aplications) {
+        return application.sources(Aplications.class);
     }
 
     public static void main(String[] args) {
